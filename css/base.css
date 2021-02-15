@@ -1,0 +1,46 @@
+/* COLORS
+
+Primary : #eb2f64
+Primary Light: #FF3366
+Primary Dark: #BA265D
+
+Grey Light 1: #faf9f9
+Grey Light 2: #f4f2f2
+Grey Light 3: #f0eeee
+Grey Light 4: #ccc
+
+
+
+*/
+
+:root {
+
+    --color-primary: #eb2f64;
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem 10px, 10px/16px = 62.5%
+}
+
+body {
+    background-color: #eb2f64;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
